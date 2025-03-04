@@ -46,7 +46,6 @@ class InstallationThread(QThread):
             os.makedirs(BUILD_DIR, exist_ok=True)
             self.progress.emit(10)
 
-            # Download the package source - I added this to fetch it from the internet
             tarball = self.package_manager.fetch_source(package['src'][0], os.path.dirname(toml_path))
             self.progress.emit(30)
             # Unpack the downloaded file into the build folder
@@ -64,7 +63,7 @@ class InstallationThread(QThread):
                 self.progress.emit(80)
             if 'install' in build:
                 self.message.emit("Installing...")
-                # Use pkexec for permissions since we’re installing system-wide
+
                 install_cmd = [f"pkexec {cmd}" if "sudo" in cmd else cmd for cmd in build['install']]
                 self.package_manager.build_package(src_dir, install_cmd, 'Installing')
                 self.progress.emit(90)
@@ -715,3 +714,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+# Written by @user7210unix
