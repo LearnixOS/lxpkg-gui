@@ -10,7 +10,7 @@
 
 
 <h1>
-      <img src="assets/images/lxpkg-gui.png" align="center" alt="Preview" width="750" style="display: block; margin: 32px auto; border: 2px solid #555; border-radius: 12px; box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);">
+      <img src="assets/lxpkg-gui.png" align="center" alt="Preview" width="750" style="display: block; margin: 32px auto; border: 2px solid #555; border-radius: 12px; box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);">
 </div>
 </div> 
 
