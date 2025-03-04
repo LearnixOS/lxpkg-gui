@@ -32,9 +32,9 @@ class InstallationThread(QThread):
         self.error_details = ""
 
     def run(self):
-        # This is where I handle the actual installation process, step by step - it’s like cooking a recipe!
+
         try:
-            # Grab the package info from its TOML file - I made this easy to find and read
+            # Grab the package info from its TOML fileI made this easy to find and read
             toml_path = self.package_manager.find_package_toml(self.package_name)
             package_info = self.package_manager.load_package_info(toml_path)
             package = package_info['package']
@@ -52,7 +52,7 @@ class InstallationThread(QThread):
             src_dir = self.package_manager.extract_tarball(tarball, BUILD_DIR)
             self.progress.emit(50)
 
-            # Run the build steps if they’re there - configure, compile, and install the package
+            # Run the build steps if they’re the configure, compile, and install the package
             if 'configure' in build:
                 self.message.emit("Configuring...")
                 self.package_manager.build_package(src_dir, build['configure'], 'Configuring')
