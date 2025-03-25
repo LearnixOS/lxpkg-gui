@@ -37,14 +37,6 @@
   
 <div align="center">
 
-### 𝙄𝙣𝙨𝙩𝙖𝙡𝙡𝙖𝙩𝙞𝙤𝙣 🍃
 
-```
-WORK IN PROGRESS
-```
-
-
-
-
-# ‎ <sup><sub><samp>STILL EARLY IN DEVELOPMENT!</samp></sub></sup>
-
+### ‎ STILL EARLY IN DEVELOPMENT!
+###### 𝗗𝗼𝗻'𝘁 𝘁𝗿𝘆 𝘁𝗵𝗶𝘀 𝗼𝗻 𝗮 𝗽𝗿𝗼𝗱𝘂𝗰𝘁𝗶𝗼𝗻 𝗺𝗮𝗰𝗵𝗶𝗻𝗲 𝘆𝗲𝘁
